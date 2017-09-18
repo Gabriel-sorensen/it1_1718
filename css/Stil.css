@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text');
 
 body{
-    background-color: teal;
+    background-color: greenyellow;
 }
 h1{
     font-family: "family=Libre+Barcode+39+Text", sans-serif;
@@ -9,9 +9,11 @@ h1{
     font-weight: 100;
     color: #cfdade;
     text-align: center;
+    border: solid black;
+    max-width: 600px;
 }
 h2{
-    font-family: family=Libre+Barcode+39+Text, sans-serif;
+    font-family: sans-serif;
     font-weight: 400;
     font-size: 200%;
     text-align: center;
@@ -19,23 +21,18 @@ h2{
     color: midnightblue;
     letter-spacing: 2px;
     width: 100%;
-    padding: 0px 0px;
-    margin: 8px 0px;
+    padding: 1px 1px;
+    margin: 8px 1px;
 
-    border: 3px solid;
+    border: solid;
     border-radius: 13px;
+    max-width: 350px;
 
 }
 
-div.Velkommen{
+a.Velkommen{
     border: 3px solid midnightblue;
     border-radius: 13px;
     max-width: 350px;
     margin: auto;
-}
-div.velkommen:hover{
-    border: 2px solid midnightblue;
-}
-h2:hover{
-    color: midnightblue;
 }
